@@ -8,8 +8,11 @@ public class Collection1{
         Collection<Integer> collection = new ArrayList<>();
         collection.add(1);
         collection.add(2);
-        collection.add(3);
+        collection.add(3); 
         collection.remove(2);
-        System.out.println(collection);
+        for (Integer i : collection) {
+            System.out.println(i);
+        }
+        
     }
 }
